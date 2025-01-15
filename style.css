@@ -1,0 +1,10 @@
+.button3a {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: opacity 0.15s;  
+}
+
+.button3a:hover {
+    opacity: 0.8;
+}
