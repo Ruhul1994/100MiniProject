@@ -2,7 +2,7 @@ body {
     margin:0;
     height: 100vh;
     background-color:black;
-     overflow: hidden; 
+    overflow: hidden; 
 }
 
 span {
@@ -11,7 +11,6 @@ span {
     width: 100px;
     position:absolute;
     background-size: cover;
-    /* border: 5px solid green; */
     pointer-events: none;
     left:50%;
     top:50%;
