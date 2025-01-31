@@ -16,7 +16,5 @@ function addNewImages(){
     imageContainerEl.appendChild(newImgEl);
     
     }
-    
-    
-    
+        
 }
