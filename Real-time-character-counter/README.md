@@ -1,76 +1,74 @@
-Character Counter App
+# Character Counter App
 
 A simple web application that provides a real-time character counter for a textarea input. Users can see the total number of characters typed and the remaining characters allowed.
 
-Features
+## Features
 
-Real-time character counting
+- Real-time character counting
+- Displays total characters used
+- Displays remaining characters allowed
+- Styled with CSS for a modern look
+- Responsive design
 
-Displays total characters used
+## Technologies Used
 
-Displays remaining characters allowed
+- HTML
+- CSS
+- JavaScript
 
-Styled with CSS for a modern look
+## Installation
 
-Responsive design
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/character-counter-app.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd character-counter-app
+   ```
+3. Open `index.html` in your browser.
 
-Technologies Used
+## Usage
 
-HTML
+1. Open the app in your browser.
+2. Type in the textarea.
+3. View the real-time character count update below the textarea.
 
-CSS
+## Project Structure
 
-JavaScript
-
-Installation
-
-Clone the repository:git clone https://github.com/your-username/character-counter-app.git
-
-Navigate to the project folder:cd character-counter-app
-
-Open index.html in your browser.
-
-Usage
-
-Open the app in your browser.
-
-Type in the textarea.
-
-View the real-time character count update below the textarea.
-
-Project Structure
+```
 character-counter-app/
 │── index.html        # Main HTML file
 │── style.css         # Stylesheet
 │── index.js          # JavaScript logic
 │── README.md         # Documentation
+```
 
-Code Overview
+## Code Overview
 
-HTML (index.html)
+### HTML (`index.html`)
 
 Defines the structure of the application, including a textarea and counters.
 
-CSS (style.css)
+### CSS (`style.css`)
 
 Styles the application with a modern, clean UI.
 
-JavaScript (index.js)
+### JavaScript (`index.js`)
 
 Handles real-time character counting functionality.
 
-Future Improvements
+## Future Improvements
 
-Add word counting feature
+- Add word counting feature
+- Support for dark mode
+- Allow users to set custom character limits
 
-Support for dark mode
-
-Allow users to set custom character limits
-
-License
+## License
 
 This project is open-source and available under the MIT License.
 
-Author
+## Author
 
-Your Name - Ruhul
+- **Your Name** - Ruhul
+
