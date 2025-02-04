@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1{
+    font-size: 100px;
+    color: aliceblue;
+    letter-spacing: 4px;
+    background:brightness(.5);
+    
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color .15s;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    white-space: nowrap;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.split {
+    width: 50%;
+    height: 100%;    
+}
+.split.left{
+    position:absolute;
+    left:0;
+    background-color: pink;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.hardwarezone.com%2Fimg%2F2023%2F08%2Fapple-iphone15-pro.jpg&f=1&nofb=1&ipt=bb75f78844d28514675fa7acd577fe99af1bbee5d16af7b66109ff2da2f26d82&ipo=images);
+    background-size: cover;
+}
+.split.right{
+    position:absolute;
+    right: 0;
+    background-color: lightblue;
+    background-image: url(https://telecomtalk.info/wp-content/uploads/2024/12/samsung-galaxy-25-ultra-to-feature-more.jpg.webp);
+    background-size: cover;
+}
+
+.active-left .left{
+width: 75%;
+}
+.active-left .right{
+    width: 25%;
+
+}
+.active-right .left{
+    width: 25;
+}
+.active-right .right{
+ width: 75%;
+ }
+
+ .left , .right {
+    transition: width 2s ease-in-out;
+ }
