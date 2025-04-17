@@ -1,0 +1,28 @@
+            /* CSS file for the HTML page */
+            /* This CSS file styles the HTML page with a light blue background, blue headings, and red links. */    
+            body {
+                background-color: lightblue;
+            }
+
+            h1 {
+                color: blue;
+                text-align: center;
+            }
+
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+            }
+
+            a {
+                color: red;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: green;
+            }
+
+            
+
+       
